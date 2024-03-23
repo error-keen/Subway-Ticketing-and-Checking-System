@@ -14,7 +14,8 @@
 
 ## 2.项目环境配置
 
-此项目需要安装MySQL及QT连接MySQL驱动编译，具体需要根据使用的qt版本，如果你使用的是Qt5.几的版本，具体操作可以参考：[【QTMysql】MySQL安装及QT连接MySQL驱动编译操作步骤 - CoutCodes - 博客园 (cnblogs.com)](https://www.cnblogs.com/CoutCodes/p/13204023.html)
+此项目需要安装MySQL及QT连接MySQL驱动编译，具体需要根据使用的qt版本，
+如果你使用的是Qt5.几的版本，具体操作可以参考：[【QTMysql】MySQL安装及QT连接MySQL驱动编译操作步骤 - CoutCodes - 博客园 (cnblogs.com)](https://www.cnblogs.com/CoutCodes/p/13204023.html)
 如果你使用的是Qt6.几的版本，由于现在Qt6版本不提供MySQL的驱动，而且也没有pro项目让你生成驱动的dll文件，所以只要你使用Qt6版本就需要手动去生成驱动文件，具体操作可以参考：[qt6.5.0MySQL驱动手动编译以及数据库连接详细教程以及注意事项附资源链接_qt编译mysql驱动-CSDN博客](https://blog.csdn.net/m0_52072919/article/details/130094915)
 以上两个版本我都试过了，亲测有效。
 
